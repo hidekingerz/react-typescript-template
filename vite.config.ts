@@ -1,9 +1,9 @@
-import { defineConfig } from "vitest/config";
+import { UserConfig, defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
 import jotaiDebugLabel from "jotai/babel/plugin-debug-label";
 import jotaiReactRefresh from "jotai/babel/plugin-react-refresh";
 
-export default defineConfig({
+const Config: UserConfig = {
   appType: "spa",
   clearScreen: false,
   logLevel: "info",
@@ -28,4 +28,6 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./src/lib/vitest/setup.ts",
   },
-});
+};
+
+export default defineConfig(Config);
