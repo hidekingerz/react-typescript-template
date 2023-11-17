@@ -20,8 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* vitest */
-    "types": ["vitest/globals"]
+    /* vitest and vite */
+    "types": ["vitest/globals", "vite/client"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
