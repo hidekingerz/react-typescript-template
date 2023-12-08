@@ -9,3 +9,28 @@ updates:
       - "hidekingerz"
     labels:
       - "auto-update"
+    groups:
+      vite:
+        patterns:
+          - "*vite*"
+      test:
+        patterns:
+          - "@testing-library*"
+          - "jsdom"
+          - "vitest"
+      storybook:
+        patterns:
+          - "@storybook*"
+          - "storybook"
+      ui:
+        patterns:
+          - "*mui*"
+          - "*emotion"
+      react:
+        patterns:
+          - "*react*"
+        exclude-patterns:
+          - "@tanstack*"
+          - "@storybook*"
+          - "@vitejs*"
+          - "*eslint*"
