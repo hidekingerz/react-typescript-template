@@ -10,6 +10,10 @@ updates:
     labels:
       - "auto-update"
     groups:
+      typescript:
+        patterns:
+          - "typescript"
+          - "@typescript-eslint*"
       react:
         patterns:
           - "react"
