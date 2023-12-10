@@ -15,8 +15,8 @@
     "lint-fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write ./src/",
     "setup": "npm install",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006 --disable-telemetry",
+    "build-storybook": "storybook build --disable-telemetry"
   },
   "overrides": {
     "@vitejs/plugin-react": "^4.2.0"
