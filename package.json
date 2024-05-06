@@ -28,7 +28,7 @@
     "@mui/material": "^5.15.16",
     "@mui/x-date-pickers": "^7.3.2",
     "@tanstack/react-query": "^5.34.2",
-    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/jest-dom": "^6.4.5",
     "date-fns": "^3.6.0",
     "jotai": "^2.8.0",
     "jotai-devtools": "^0.9.1",
@@ -63,6 +63,6 @@
     "storybook": "^7.6.17",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
-    "vitest": "^1.5.3"
+    "vitest": "^1.6.0"
   }
 }
