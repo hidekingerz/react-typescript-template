@@ -1,5 +1,6 @@
 import { render, screen } from "./lib/vitest/test-util.ts";
 import { App } from "./App.tsx";
+import { describe, it, expect } from "vitest";
 
 describe("App test", () => {
   const setup = () => {
