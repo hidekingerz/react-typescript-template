@@ -29,8 +29,8 @@ updates:
           - "jotai"
           - "jotai-devtools"
       query:
-         patterns:
-           - "@tanstack/react-query"
+        patterns:
+          - "@tanstack/react-query"
       test:
         patterns:
           - "@testing-library*"
