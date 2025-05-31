@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    // 必須拡張機能
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-next",
+    
+    // React開発用
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    
+    // Storybook開発用
+    "chromatic.vscode-storybook",
+    
+    // 開発効率向上
+    "ms-vscode.vscode-json",
+    "bierner.markdown-mermaid",
+    "streetsidesoftware.code-spell-checker",
+    
+    // Git関連
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    
+    // Material-UI開発用
+    "ms-vscode.vscode-css-peek",
+    "bradlc.vscode-tailwindcss",
+    
+    // テスト関連
+    "ms-vscode.test-adapter-converter",
+    "hbenl.vscode-test-explorer"
+  ]
+}
