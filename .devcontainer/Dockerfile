@@ -1,10 +1,9 @@
 # Use the official Node.js image as base
 FROM mcr.microsoft.com/devcontainers/javascript-node:22
 
-# Install additional packages
+# Install additional packages (git is already included in the base image)
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
-        git \
         curl \
         wget \
         unzip \
@@ -24,7 +23,7 @@ RUN npm ci
 RUN npm install -g @storybook/cli
 
 # Expose ports for development
-EXPOSE 443 3000 5173 6006
+EXPOSE 3000 5173 6006
 
 # Set the default user
 USER node

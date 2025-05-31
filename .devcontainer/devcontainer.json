@@ -40,10 +40,6 @@
   },
   "forwardPorts": [3000, 5173, 6006],
   "portsAttributes": {
-    "443": {
-      "label": "Application",
-      "onAutoForward": "notify"
-    },
     "3000": {
       "label": "Application",
       "onAutoForward": "notify"
