@@ -13,7 +13,8 @@ export default defineConfig({
     alias: [{ find: "@src", replacement: `${__dirname}/src/` }],
   },
   server: {
-    port: 8080,
+    host: "0.0.0.0",
+    port: 5173,
     open: true,
   },
   base: "./",
