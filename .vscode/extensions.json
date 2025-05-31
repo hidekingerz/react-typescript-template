@@ -24,7 +24,6 @@
     
     // Material-UI開発用
     "ms-vscode.vscode-css-peek",
-    "bradlc.vscode-tailwindcss",
     
     // テスト関連
     "ms-vscode.test-adapter-converter",
