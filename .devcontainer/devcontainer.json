@@ -29,7 +29,7 @@
         "editor.codeActionsOnSave": {
           "source.fixAll.eslint": "explicit"
         },
-        "typescript.preferences.noSemicolons": "off",
+        "typescript.preferences.noSemicolons": false,
         "typescript.updateImportsOnFileMove.enabled": "always",
         "emmet.includeLanguages": {
           "typescript": "html",
