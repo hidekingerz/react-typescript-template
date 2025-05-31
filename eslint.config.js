@@ -7,6 +7,9 @@ import reactPlugin from 'eslint-plugin-react';
 import globals from 'globals';
 
 export default [
+  {
+    ignores: ['dist/**', 'node_modules/**', '*.config.js', 'vite.config.mts', 'coverage/**']
+  },
   js.configs.recommended,
   {
     files: ['**/*.{ts,tsx,mtsx}'],
