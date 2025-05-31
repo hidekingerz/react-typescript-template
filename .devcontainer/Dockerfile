@@ -19,8 +19,6 @@ COPY package*.json ./
 # Install dependencies
 RUN npm ci
 
-# Install global tools
-RUN npm install -g @storybook/cli
 
 # Expose ports for development
 EXPOSE 3000 5173 6006
