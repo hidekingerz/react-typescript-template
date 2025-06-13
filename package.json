@@ -23,7 +23,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^7.1.1",
     "@mui/material": "^7.1.0",
-    "@mui/x-date-pickers": "^8.5.1",
+    "@mui/x-date-pickers": "^8.5.2",
     "@tanstack/react-query": "^5.80.7",
     "@testing-library/jest-dom": "^6.6.3",
     "date-fns": "^4.1.0",
