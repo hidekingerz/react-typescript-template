@@ -36,11 +36,11 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^9.1.4",
-    "@storybook/addon-links": "^9.1.4",
-    "@storybook/addon-onboarding": "^9.1.4",
-    "@storybook/cli": "^9.1.4",
-    "@storybook/react-vite": "^9.1.4",
+    "@storybook/addon-docs": "^9.1.5",
+    "@storybook/addon-links": "^9.1.5",
+    "@storybook/addon-onboarding": "^9.1.5",
+    "@storybook/cli": "^9.1.5",
+    "@storybook/react-vite": "^9.1.5",
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
